@@ -19,10 +19,10 @@ public class VerifyLogin extends baseclass {
 		
 		LPO.userNameEnter().sendKeys(Constant.username);
 		
-		//commonUtilities.handleExplicitwaitWebElement(10,LPO.passwordEnter());//Explicit wait using Webelement
+		//commonUtilities.handleExplicitwaitWebElement(10,LPO.passwordEnter());//Explicit wait using WebElement
 	LPO.passwordEnter().sendKeys(Constant.password);
 		
-		//CommonUtilities.handleExplicitwaitBy(10,LPO.login);//Explicit wait using By,make by elelment as public	
+		//CommonUtilities.handleExplicitwaitBy(10,LPO.login);//Explicit wait using By,make by element as public	
 		LPO.loginClick().click();
 		
 		//Assertion method
